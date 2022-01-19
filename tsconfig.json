@@ -1,0 +1,48 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "strict": true,
+        "noEmit": true,
+        "removeComments": true,
+        "pretty": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "lib": [
+            "dom",
+            "es5",
+            "ESNext"
+        ],
+        "types": [
+            "node"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "support/*": [
+                "src/support/*"
+            ],
+            "enums/*": [
+                "src/support/@enums/*"
+            ],
+            "types/*": [
+                "src/support/@types/*"
+            ],
+            "*": [
+                "./*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "reports/report.ts"
+    ],
+    "exclude": [],
+    "compileOnSave": false,
+    "typeAcquisition": {
+        "enable": false
+    }
+}

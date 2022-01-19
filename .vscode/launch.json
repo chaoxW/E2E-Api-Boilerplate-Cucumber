@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug feature",
+            "program": "${workspaceRoot}/node_modules/@cucumber/cucumber/bin/cucumber-js",
+            "args": [
+                "${relativeFile}"
+            ],
+            "console": "integratedTerminal",
+        }
+    ]
+}
